@@ -3,6 +3,7 @@ import  Header from "./Header";
 import  Footer from "./Footer";
 import  HeroAI from "./Hero-ai";
 import GenTools from "./GenAI";
+import Offerings from "./Offerings";
 
 
 
@@ -12,6 +13,7 @@ function Artifical() {
         <Header /> 
         <HeroAI />
         <GenTools />
+        <Offerings />
         <Footer />
 
     </div>

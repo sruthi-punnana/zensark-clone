@@ -3,9 +3,9 @@ import GENTool from "../assets/Gen-Ai-Tools.jpg";
 
 const GenTools = () => {
   return (
-    <section  class="py-[60px]">
+    <section >
       <div
-        class="bg-cover bg-center  min-h-[800px] max-w-[1260px] mx-auto center"
+        class="bg-cover bg-center h-[400px] md:min-h-[800px]"
         style={{ backgroundImage: `url(${GENTool})` }}
       >
        
