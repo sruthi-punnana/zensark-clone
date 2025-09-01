@@ -14,7 +14,7 @@ function HomePage() {
         <Hero />
         <About />
         <Services />
-        {/*<Approach /> */}
+        <Approach /> 
         <Testimonials />
         {/*<Contact /> */}
         <Footer />

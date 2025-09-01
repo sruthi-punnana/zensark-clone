@@ -13,7 +13,7 @@ const Hero = () => {
           <h2 className="text-[#0040da] text-[16px] md:text-[32px] font-[500] font-[Lato, Sans-serif]">
             Building Custom Generative AI Solutions
           </h2>
-          <div className="px-[20px] pt-[7px] bg-[#f6f6f6] text-[10px] md:text-[16px] text-[#000000] font-[400]  font-[Lato, Sans-serif] rounded w-[91px] md:w-[125px] h-[33px] md:h-[43px] md:pt-1">
+          <div className="px-[20px] pt-[7px] bg-[#f6f6f6] hover:bg-[#0040da] hover:text-[#f6f6f6] text-[10px] md:text-[16px] text-[#000000] font-[400]  font-[Lato, Sans-serif] rounded w-[91px] md:w-[125px] h-[33px] md:h-[43px] md:pt-1">
             <Link to="/artificial">View More</Link>
           </div>
         </div>

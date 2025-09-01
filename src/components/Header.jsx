@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import zensarkLogo from "../assets/zensark-logo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
  
 
 const Header = () => {
@@ -66,7 +67,7 @@ const Header = () => {
       >
         <ul className="flex flex-col xl:flex-row gap-4 xl:gap-10 py-4 xl:py-0 w-full xl:w-auto">
           <li className="text-black xl:text-black hover:text-black">
-            <a href="#home">Home</a>
+            <Link to="/">Home</Link>
           </li>
  
           {/* Our Solutions Dropdown */}
@@ -101,9 +102,9 @@ const Header = () => {
                   <h3 className="text-blue-700 font-bold mb-3">BY INDUSTRY</h3>
                   <ul className="space-y-2 text-black font-[400] font-[Lato, Sans-serif]">
                     <li>
-                      <a href="#" className="hover:underline">
+                      <Link to="/ai-healthtech" className="hover:underline">
                         HealthTech
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a href="#" className="hover:underline">
@@ -111,9 +112,9 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="hover:underline">
+                      <Link to="/it-staffing" className="hover:underline">
                         IT Staffing
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -122,9 +123,9 @@ const Header = () => {
                   <h3 className="text-blue-700 font-bold mb-3">BY OUTCOME</h3>
                   <ul className="space-y-2 text-black font-[400] font-[Lato, Sans-serif]">
                     <li>
-                      <a href="#" className="hover:underline">
+                      <Link to="/artificial" className="hover:underline">
                         AI Accelerators
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a href="#" className="hover:underline">
@@ -137,9 +138,9 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="hover:underline">
+                      <Link to="/salesforce" className="hover:underline">
                         AI Powered Salesforce Automation
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -169,7 +170,7 @@ const Header = () => {
             )}
           </li>
           <li className="text-black xl:text-[#0040da] hover:text-black">
-            <a href="#carrers">Carrers</a>
+            <Link to="/ourculture">Carrers</Link>
           </li>
  
           {/* Resources Dropdown */}
